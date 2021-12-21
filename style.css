@@ -111,6 +111,7 @@ section h2{
     color: #666;
     word-spacing: 2px;
     line-height: 25px;
+    text-align: center;
 }
 .about .img{
     display: flex;
@@ -199,3 +200,25 @@ footer {
         transform: rotate(360deg);
     }
 } */
+
+@media screen and (max-width: 768px){
+    .container{
+        width: 90%;
+    }
+
+    header h1{
+        text-align: center;
+        float: none;
+    }
+
+    header ul {
+        text-align: center;
+        float:none;
+    }
+
+    .box .col-4{
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+    }
+}
